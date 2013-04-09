@@ -114,7 +114,7 @@ article{
         text-align:center;
         text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
         line-height:1.1;
-        font-family: 'Bangers', cursive;
+        font-family: 'PT Sans Narrow', sans-serif;
         font-size: 72px;
         color: #F28729;
         margin-left: 150px;
@@ -142,9 +142,10 @@ article{
 {
     text-align: center;
     padding-top: 175px;
+    background-image: -webkit-linear-gradient(top, #919191 0%, #FFFFFF 100%);
 }
 
-#ido
+/*#ido
 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 75px;
@@ -172,6 +173,37 @@ article{
 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 75px;
+}*/
+
+
+#ido
+{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 75px;
+}
+
+#html
+{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 75px;
+}
+
+#java
+{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 100px;
+}
+
+#jquery
+{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 75px;
+}
+
+#ruby
+{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 75px;
 }
 
 /* Section 2 - Stylemine */
@@ -180,7 +212,7 @@ article{
 {
     display: inline-block;
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 175px;
 }
 
 .stylemine_text
@@ -199,7 +231,7 @@ article{
 
 /* Section 3 */
 #section-3{
-
+    background-color: black;
 }
     #section-3 .photos{
         padding:150px 0;
@@ -233,17 +265,17 @@ article{
 #section-4
 {
     background-color: blue;
-    background:url(img/wallpaper.jpg) 50% 0;
+    background:url(img/wallpaper-black.jpg) 50% 0;
+/*    opacity: .5;*/
 }
 
 .container
 {
     margin-top: 110px;
-    margin-left: 350px;
+    margin-left: 250px;
     background-color: white;
-    opacity: .5;
-    height: 850px;
-    width: 1500px;
+    height: 550px;
+    width: 1000px;
 }
 
 #email

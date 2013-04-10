@@ -210,17 +210,23 @@ article{
 
 .stylemine_images
 {
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 175px;
+/*    display: inline-block;*/
+    margin-top: 125px;
+    margin-left: 0;
 }
 
-.stylemine_text
+#stylemine_text
 {
     font-size: 24px;
-    margin-left: 50px;
-    margin-top: 25px;
-    font-family: 'Sintony', sans-serif;
+/*    margin-left: 50px;*/
+/*    margin-top: 25px;*/
+    float: left;
+/*    font-family: 'Sintony', sans-serif;*/
+    font-family: 'Julius Sans One', sans-serif;
+    border: 1px solid white;
+    width: 250px;
+    padding-left: 100px;
+    padding-top: 150px;
 }
 
 .stylemine_descriptions
@@ -228,6 +234,20 @@ article{
     float: right;
 }
 
+#screenshot
+{
+   float: left;
+}
+#created
+{
+    margin-top: 75px;
+}
+
+#canvas
+{
+    margin-top: 75px;
+    margin-left: 100px;
+}
 
 /* Section 3 */
 #section-3{

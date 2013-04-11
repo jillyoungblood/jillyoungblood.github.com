@@ -220,8 +220,6 @@ article{
 #stylemine_text
 {
     font-size: 24px;
-/*    margin-left: 50px;*/
-/*    margin-top: 25px;*/
     float: left;
 /*    font-family: 'Sintony', sans-serif;*/
     font-family: 'Julius Sans One', sans-serif;
@@ -239,6 +237,7 @@ article{
 #screenshot
 {
    float: right;
+   width: 1000px;
 }
 #created
 {

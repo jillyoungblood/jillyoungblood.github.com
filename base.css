@@ -225,7 +225,7 @@ article{
     font-family: 'Julius Sans One', sans-serif;
     border: 1px solid white;
     width: 250px;
-    padding-left: 100px;
+    padding-left: 135px;
     padding-top: 150px;
 }
 
@@ -246,18 +246,19 @@ article{
 #canvas
 {
     margin-top: 75px;
+    float: right;
 /*    margin-left: 100px;*/
 }
 
 /* Section 3 */
 #section-3{
-    background-color: black;
+    background-color: white;
 }
-    #section-3 .photos{
+/*    #section-3 .photos{
         padding:150px 0;
         width:620px;
         margin-left:150px;
-    }
+    }*/
         #section-3 .photos > :last-child{margin-bottom:0}
 
         #section-3 .fixed{
@@ -284,7 +285,7 @@ article{
 
 #section-4
 {
-    background-color: white;
+    background-image: white;
 /*    background:url(img/wallpaper-black.jpg) 50% 0;*/
 /*    opacity: .5;*/
 }
@@ -302,31 +303,40 @@ article{
 #email
 {
   font-size: 24px;
-  margin-left: 150px;
+  margin-left: 175px;
+  margin-bottom: 15px;
+}
+
+#city
+{
+    font-size: 24px;
+  margin-left: 275px;
+  margin-bottom: 15px;
 }
 
 #contact_head
 {
     font-size: 48px;
-    margin-left: 150px;
+    margin-left: 200px;
 
 }
 
 #contact_text
 {
     margin-left: 400px;
-    margin-top: 200px;
+    margin-top: 85px;
 }
 
 #profile_pic
 {
     float: left;
     margin-top: 65px;
+    margin-left: 35px;
 }
 
 .social_icons
 {
-    margin-left: 140px;
+    margin-left: 275px;
 }
 
 .verticalLine {
@@ -334,5 +344,44 @@ article{
     height: 400px;
     float: left;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 65px;
+}
+
+#virgin
+{
+    float: right;
+}
+
+#tunr
+{
+    float: right;
+}
+
+#virgin_text
+{
+    font-size: 24px;
+    float: left;
+    font-family: 'Julius Sans One', sans-serif;
+    border: 1px solid white;
+    width: 250px;
+    padding-left: 135px;
+    padding-top: 150px;
+}
+
+.orange
+{
+    color: #F28729;
+    font-weight: bold;
+    padding: 0;
+}
+
+.remaining_text
+{
+    float: left;
+}
+
+#stamp
+{
+    margin-left: 340px;
+    margin-top: 10px;
 }

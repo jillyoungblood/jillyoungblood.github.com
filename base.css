@@ -100,12 +100,12 @@ article{
 }
 
 #section-1{
-    background:url(img/jill_beach_cartoon_2.jpg) 50% 0 no-repeat;
+    background:url(img/beach_final.jpg) 50% 0 no-repeat;
     background-size:cover;
 }
 
     #section-1 header{
-        color:#FFF;
+/*        color:#FFF;*/
 /*        position:absolute;*/
         top:30%;
 /*        left:50%;*/
@@ -117,6 +117,8 @@ article{
         font-family: 'PT Sans Narrow', sans-serif;
         font-size: 72px;
         color: #F28729;
+/*        color: EB7610;*/
+        text-shadow: 2px 2px black;
         margin-left: 150px;
         padding-top: 100px;
     }
@@ -236,7 +238,7 @@ article{
 
 #screenshot
 {
-   float: left;
+   float: right;
 }
 #created
 {
@@ -246,7 +248,7 @@ article{
 #canvas
 {
     margin-top: 75px;
-    margin-left: 100px;
+/*    margin-left: 100px;*/
 }
 
 /* Section 3 */
@@ -284,8 +286,8 @@ article{
 
 #section-4
 {
-    background-color: blue;
-    background:url(img/wallpaper-black.jpg) 50% 0;
+    background-color: white;
+/*    background:url(img/wallpaper-black.jpg) 50% 0;*/
 /*    opacity: .5;*/
 }
 
@@ -296,26 +298,43 @@ article{
     background-color: white;
     height: 550px;
     width: 1000px;
+    border: 8px dashed #F28729;
 }
 
 #email
 {
   font-size: 24px;
+  margin-left: 150px;
 }
 
 #contact_head
 {
     font-size: 48px;
+    margin-left: 150px;
 
 }
 
 #contact_text
 {
-    float: left;
-    margin-left: 50px;
+    margin-left: 400px;
+    margin-top: 200px;
 }
 
 #profile_pic
 {
     float: left;
+    margin-top: 65px;
+}
+
+.social_icons
+{
+    margin-left: 140px;
+}
+
+.verticalLine {
+    border-left:thin solid black;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
 }
